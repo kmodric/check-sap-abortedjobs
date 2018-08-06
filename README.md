@@ -8,15 +8,19 @@ Nagios plugin for checking SAP Aborted jobs in last two days
 
 Usage:./check_sap_abortedjobs.py \<SID\> \<warning shortdumps\> \<critical shortdumps\>
 
-### Example:
+Example:
 root@:~/github# ./check_sap_abortedjobs.py SBX 10 20
 
 OK: Aborted jobs in 2 days -w 10 -c 20: 0 AbortedJobs | AbortedJobs=0
 
                                                                       
 ### Prerequisite:
+https://github.com/piersharding/python-sapnwrfc
+
+### Wiki:
 Installation of sapnwrfc for python on Linux and Unix
 https://wiki.scn.sap.com/wiki/display/EmTech/Installation+of+sapnwrfc+for+python+on+Linux+and+Unix
+
 
 
 
