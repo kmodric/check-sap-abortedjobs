@@ -1,4 +1,4 @@
-# check-sap-abortedjobs
+# check_sap_abortedjobs.py
 Nagios plugin for checking SAP Aborted jobs in last two days
 
 ![](/images/check_sap_abortedjobs2.png)
